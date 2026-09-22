@@ -43,3 +43,17 @@ Actual AQOOM Core integration and actual Core definitional coupling remain **NOT
 **PASS ≠ Closure**
 
 This reference is informational/provenance-only and does not promote any gate or claim.
+
+
+## Asset State Baseline — 2026-09-22
+
+يرتبط هذا المستودع الآن بسجل حالة الأصول الكانوني:
+`00_MASTER/ASSET_STATE/ASSET_STATE_2026-09-22_v0_1.md`
+
+الأصول الثلاثة المسجلة فيه تبقى مستقلة، ولا يوجد نقل ملكية أو دمج أو إعادة فتح لمسار من مجرد التشابه الاسمي.
+
+**Registry ≠ Evidence**
+**Asset Identity ≠ Asset Ownership**
+**PASS ≠ Closure**
+
+المرحلة المالكة: التطبيق المركزي. وجود أصل من طبقات الشريحة أو الأصول التاريخية في السجل لا ينقل ملكيته إلى التطبيق المركزي.
