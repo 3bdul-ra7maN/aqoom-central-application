@@ -1,0 +1,18 @@
+{
+  "project_id": "02",
+  "project_name": "aqoom-central-application",
+  "repository": "3bdul-ra7maN/aqoom-central-application",
+  "target_repository": "3bdul-ra7maN/aqoom-central-application",
+  "package_id": "PKG-02-YYYYMMDD-001",
+  "package_name": "aqoom-central-application-repository-package",
+  "version": "0.1.0",
+  "source_root": "/content/REPLACE_WITH_SOURCE_ROOT",
+  "required_verification": [
+    "Manifest",
+    "SHA256",
+    "Post-build extraction comparison"
+  ],
+  "files": [],
+  "purpose_documented_from_source": "التطبيق المركزي للتنفيذ",
+  "status": "MISSING DATA - Files Required must be supplied by the project record before collection."
+}
