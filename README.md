@@ -1,32 +1,38 @@
 # AQOOM Central Application MVP v0.1
 
-Project 1: AQOOM Central Execution Platform
-Product: AQOOM Central Application
+## المنصة
 
-MVP cycle:
+المشروع: منصة AQOOM المركزية للتنفيذ  
+المنتج: تطبيق AQOOM المركزي
 
-Task → Assignment → Execution → Result → Evidence → T_accounted → RT → Settlement Record → Training Record → Trace
+## دورة MVP
 
-Implementation: EXECUTED / OBSERVED
-Acceptance: PASS within declared MVP scope
-Independent verification: NOT PERFORMED
-Financial settlement: OPEN; MVP records settlement only
-Commercial model: OPEN
+المهمة → الإسناد → التنفيذ → النتيجة → الدليل → T_accounted → RT → سجل التسوية → سجل التدريب → التتبّع
 
-The repository contains the runnable Python MVP backend, React/Vite UI, tests, acceptance evidence, and Google AI Studio guidance.
+حالة التنفيذ: **منفَّذ / مُشاهَد**
 
-## Backend
+القبول: **PASS ضمن نطاق MVP المعلن**
+
+التحقق المستقل: **لم يُنفَّذ**
+
+التسوية المالية: **مفتوحة؛ يسجل MVP التسوية فقط**
+
+النموذج التجاري: **مفتوح**
+
+يحتوي المستودع على الواجهة الخلفية القابلة للتشغيل بلغة Python، وواجهة React/Vite، والاختبارات، وأدلة القبول، وإرشادات Google AI Studio.
+
+## الواجهة الخلفية
 
 ```bash
 python run.py
 pytest -q tests
 ```
 
-## UI
+## الواجهة
 
 ```bash
 npm install
 npm run dev
 ```
 
-See `AISTUDIO_PROMPT_AR.md` before changing UI behavior in Google AI Studio.
+يُرجى الرجوع إلى `AISTUDIO_PROMPT_AR.md` قبل إجراء أي تغيير في سلوك الواجهة باستخدام Google AI Studio.
