@@ -41,7 +41,9 @@ class AQOOMService:
             task_id = new_id("task")
             c.execute("INSERT INTO tasks VALUES (?,?,?,?,?)",(task_id,requester_id,description.strip(),now_iso(),"CREATED"))
             self._trace(c,"TASK_CREATED","TASK",task_id,requester_id,{"description":description.strip()})
-            return self.get_task(task_id)
+            row = c.execute("SELECT * FROM tasks WHERE task_id=?", (task_id,)).fetchone()
+            if not row: raise NotFoundError(f"Unknown task: {task_id}")
+            return dict(row)
 
     def get_task(self, task_id):
         with self.db.connect() as c:
